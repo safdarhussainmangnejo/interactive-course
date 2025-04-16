@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="urn:articulate:storyline:ml-lesson" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Machine Learning Interactive Lesson</name>
+			<description lang="und">Interactive lesson for students</description>
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/6F3FFC1GCwS" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Machine Learning Interactive Lesson</name>
+			<description lang="und">Machine Learning Interactive Lesson</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/6edrgrPpD1j" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Introdunction Slide</name>
+			<description lang="und">Introdunction Slide</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/67OLMlfHHKG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What is Machine Learning</name>
+			<description lang="und">What is Machine Learning</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/62yY8hBJvrx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 1</name>
+			<description lang="und">Question 1</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/62yY8hBJvrx/6SKJtBxdaP1" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Traditionally, humans have always relied on automated systems to analyze</name>
+			<description lang="und">Traditionally, humans have always relied on automated systems to analyze</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5hfq750MGyI</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5hfq750MGyI</id>
+					<description lang="und">True</description>
+				</component>
+				<component>
+					<id>choice_6QY0YlosOuy</id>
+					<description lang="und">False</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/6Exr6Vjdh4G" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">How ML is used?</name>
+			<description lang="und">How ML is used?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/5Y0ZRxOSuM0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 2</name>
+			<description lang="und">Question 2</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/5Y0ZRxOSuM0/5c6CXWFyBxU" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Drag and Drop</name>
+			<description lang="und">Drag and Drop</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_6if97FIyYVy[.]choice_6ejUht6mWjG</correctResponsePattern>
+				<correctResponsePattern>statement_5imlYLOy8Br[.]choice_6l2gFrwBBtD</correctResponsePattern>
+				<correctResponsePattern>statement_6cVrq54AF0W[.]choice_69zveY2FWqA</correctResponsePattern>
+				<correctResponsePattern>statement_6ZvDeM3QZoO[.]choice_6RHdyPqGoXp</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_6if97FIyYVy</id>
+					<description lang="und">Image Recognition Box - Oval</description>
+				</component>
+				<component>
+					<id>statement_5imlYLOy8Br</id>
+					<description lang="und">Self Driving Box - Oval</description>
+				</component>
+				<component>
+					<id>statement_6cVrq54AF0W</id>
+					<description lang="und">Fraud Detection Box - Oval</description>
+				</component>
+				<component>
+					<id>statement_6ZvDeM3QZoO</id>
+					<description lang="und">Speech Recognition Box - Oval</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6ejUht6mWjG</id>
+					<description lang="und">Image Recognition Answer - Oval</description>
+				</component>
+				<component>
+					<id>choice_6l2gFrwBBtD</id>
+					<description lang="und">Self Driving Answer - Oval</description>
+				</component>
+				<component>
+					<id>choice_69zveY2FWqA</id>
+					<description lang="und">Fraud Detection Answer - Oval</description>
+				</component>
+				<component>
+					<id>choice_6RHdyPqGoXp</id>
+					<description lang="und">Speech Recognition Answer - Oval</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/6rS7123OEPn" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Where ML is used?</name>
+			<description lang="und">Where ML is used?</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/64sAniJ49PP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 3</name>
+			<description lang="und">Question 3</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/64sAniJ49PP/6pPGWa1Tag2" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">According to the speaker, what is a significant trend regarding machine learning in the business world?</name>
+			<description lang="und">According to the speaker, what is a significant trend regarding machine learning in the business world?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5sJZPUwy3T9</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5hUUUFIfDom</id>
+					<description lang="und">The use of machine learning is declining as companies find it less effective than traditional methods.</description>
+				</component>
+				<component>
+					<id>choice_5exbeEupABO</id>
+					<description lang="und">Only large technology companies are adopting machine learning.</description>
+				</component>
+				<component>
+					<id>choice_5sJZPUwy3T9</id>
+					<description lang="und">Companies are increasingly integrating machine learning into their products and services.</description>
+				</component>
+				<component>
+					<id>choice_6RFfjCYI0Cx</id>
+					<description lang="und">Machine learning is becoming a novel and niche offering for companies.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/5oPOOs8hSO2" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">ML in Five Words</name>
+			<description lang="und">ML in Five Words</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/6an1P9GH3J4" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 4</name>
+			<description lang="und">Question 4</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/6an1P9GH3J4/6IzK7V44JC7" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">The instructor describes a workflow for machine learning. Match the terms the instructor uses to describe those parts with their descriptions.</name>
+			<description lang="und">The instructor describes a workflow for machine learning. Match the terms the instructor uses to describe those parts with their descriptions.</description>
+			<interactionType>matching</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>statement_5Wm7kVbBCSX[.]choice_5Wm7kVbBCSX</correctResponsePattern>
+				<correctResponsePattern>statement_5hCs9mPMiSZ[.]choice_5hCs9mPMiSZ</correctResponsePattern>
+				<correctResponsePattern>statement_6XAJ42NeFq3[.]choice_6XAJ42NeFq3</correctResponsePattern>
+				<correctResponsePattern>statement_6mS4BoFtmAp[.]choice_6mS4BoFtmAp</correctResponsePattern>
+			</correctResponsePatterns>
+			<source>
+				<component>
+					<id>statement_5Wm7kVbBCSX</id>
+					<description lang="und">Using the trained model to make predictions on new, unseen data, effectively "answering questions."</description>
+				</component>
+				<component>
+					<id>statement_5hCs9mPMiSZ</id>
+					<description lang="und">The foundation upon which the machine learning process is built.</description>
+				</component>
+				<component>
+					<id>statement_6XAJ42NeFq3</id>
+					<description lang="und">The output of the training process, a "predictive model" that has learned patterns from the data.</description>
+				</component>
+				<component>
+					<id>statement_6mS4BoFtmAp</id>
+					<description lang="und">Using the data to "inform the creation and fine-tuning" of the predictive model.</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5Wm7kVbBCSX</id>
+					<description lang="und">Service Prediction</description>
+				</component>
+				<component>
+					<id>choice_5hCs9mPMiSZ</id>
+					<description lang="und">Data</description>
+				</component>
+				<component>
+					<id>choice_6XAJ42NeFq3</id>
+					<description lang="und">Model</description>
+				</component>
+				<component>
+					<id>choice_6mS4BoFtmAp</id>
+					<description lang="und">Training</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/6jTfRLWK0Vv" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Let's summarize content</name>
+			<description lang="und">Let's summarize content</description>
+		</activity>
+		<activity id="urn:articulate:storyline:ml-lesson/5mpIQslg1Xe" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Quiz Results</name>
+			<description lang="und">Quiz Results</description>
+		</activity>
+	</activities>
+</tincan>
